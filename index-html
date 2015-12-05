@@ -1,0 +1,140 @@
+
+
+<!doctype html>
+<html lang="en"> 
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <center> <title>The 3 Control Structures</title> </center>
+
+    <meta name="description" content='Our brains are connection machines. So is Excel' />
+    <meta name="author" content="Rich Hildred" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="https://impress.github.io/impress.js/css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+    <div id="impress">  
+        <div id="slide0" class="step slide" data-x="500" data-y="-7800">
+            <center><h1>3 Control Structures</h1></center>
+            <center> <img src= "http://docs.oracle.com/cd/A87860_01/doc/appdev.817/a77069/03_strua.gif"></center>
+            <h2>Matt Ariemma</h2>
+        </div>
+    <div id="slide1" class="step slide" data-x="-750" data-y="-7100">
+        <h1>What are Control Structures</h1>
+        <p>According to the structure theorem, any computer program can be written using the basic control structures shown in Figure 3-1. They can be combined in any way necessary to deal with a given problem.</p>
+        
+        
+        <center><img src= "http://csunplugged.org/wp-content/uploads/2015/03/turing-test.jpg1246936875"/></center>
+        
+        </div>
+        
+        <div id="slide2" class="step slide" data-x="500" data-y="-7100">
+            <h1>Sequential</h1>
+            <q>default mode. Sequential execution of code statements (one line after another) -- like following a recipe</q>
+        
+        
+        </div>
+        <div id="slide3" class="step slide" data-x="1500" data-y="-7100">
+            <h1>Selectio </h1> 
+            
+            <p> <font size= "6"> used for decisions, branching -- choosing between 2 or more alternative paths. In C++, these are the types of selection statements:
+if
+if/else
+switch</font> </p> 
+            
+            <center> <img src= "https://plus.maths.org/issue5/turing/cartoon.gif" HEIGHT="300" WIDTH="750" BORDER="0" > </center>
+             
+        
+            </div>
+            <div id="slide4" class="step slide" data-x="2500" data-y="-7100">
+                <h1>Repetition</h1>  
+            <p>used for looping, i.e. repeating a piece of code multiple times in a row. In C++, there are three types of loops:
+while 
+do/while
+for
+</p>
+            
+            <center><img src= "http://a2.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NDg0MDU1MTUzMTE2Njg3.jpg" />  </center>
+
+    </div>
+    
+    <div id="slide5" class="step slide" data-x="4000" data-y="-2000">
+    <h1>Selection Statements</h1>
+    <p>The most common selection statement is the if/else statement. Basic syntax:
+   if (expression)
+      statement
+   else
+      statement
+The else clause is optional, so this format is also legal:
+   if (expression)
+      statement </p> 
+   
+    
+    
+    <center> <img src= "https://i.ytimg.com/vi/fVUvWOESZLY/maxresdefault.jpg"HEIGHT="350" WIDTH="650" BORDER="0"/> </center>
+    
+    </div>
+    
+    <div id="slide6" class="step slide" data-x="7000" data-y="-2000">
+    <h1>Turing Test</h1>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/sXx-PpEBR7k" frameborder="0" allowfullscreen></iframe>
+    
+    </div>
+    
+    <div id="slide7" class="step slide" data-x="5000" data-y="-2000">
+        <h1>Conclusion</h1> 
+        <p>-Criticisms</p> 
+        <!-- The turing test has faced some criticism because the nature of the questioning must be
+        limited in order for a computer to exhibit human-like intelligence.
+        -->
+        <p>-Thanks for listening</p>
+        
+        <center> <img src= "http://1.bp.blogspot.com/-ppc6cMyV0vs/T7vvW26tBvI/AAAAAAAAAPI/NnTo0x9vVrE/s1600/01+Turing+Robot.jpg" /> </center>
+        
+        </div>
+        
+        <div id="slide8" class="step slide" data-x="8500" data-y="-3000">
+     <h1>Bibliography</h1>
+     
+     
+     
+     <p>"Artificial Intelligence | The Turing Test." Artificial Intelligence | The Turing Test. Web. 1 Dec. 2015.</p>
+ 
+    <p>"What Is Turing Test? - Definition from WhatIs.com." WhatIs.com. Web. 1 Dec. 2015.</p>
+ 
+    <p>"Michael Jackson Hologram - Google Search." Michael Jackson Hologram - Google Search. Web. 1 Dec. 2015.</p>
+ 
+    <p>"‘Eugene’ Becomes First Computer to Pass the Turing Test | Toronto Star." Thestar.com. Web. 1 Dec. 2015.</p>
+    
+   
+    
+    </div>
+    
+    <div class="hint"> 
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script src="https://impress.github.io/impress.js/js/impress.js"></script>
+    <script>
+        impress().init(); 
+    </script> 
+
+</body>
+
+</html>
